@@ -1,0 +1,79 @@
+export default function WhatYouGet() {
+  const categories = [
+    {
+      title: 'Medalhas e Anéis',
+      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500',
+      description: 'Centenas de designs prontos para personalização'
+    },
+    {
+      title: 'Suporte para Celulares',
+      image: 'https://images.unsplash.com/photo-1556656793-08538906a9f8?w=500',
+      description: 'Designs modernos e funcionais'
+    },
+    {
+      title: 'Calendários',
+      image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500',
+      description: 'Calendários perpétuos e anuais'
+    },
+    {
+      title: 'Brinquedos Educativos',
+      image: 'https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=500',
+      description: 'Quebra-cabeças, jogos e mais'
+    },
+    {
+      title: 'Tabuleiros',
+      image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=500',
+      description: 'Xadrez, damas e outros jogos'
+    },
+    {
+      title: 'Embalagens',
+      image: 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=500',
+      description: 'Caixas, porta-objetos e displays'
+    }
+  ];
+
+  return (
+    <section className="py-20 bg-gradient-to-b from-white to-orange-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+            A MAIOR COLEÇÃO DE VETORES DA INTERNET
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Todos organizados e prontos para usar na sua máquina CNC
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          {categories.map((category, index) => (
+            <div 
+              key={index}
+              className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+            >
+              <div className="relative h-64 overflow-hidden">
+                <img 
+                  src={category.image} 
+                  alt={category.title}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">{category.title}</h3>
+                <p className="text-gray-600">{category.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <div className="text-center">
+          <div className="inline-block bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-2xl shadow-xl">
+            <p className="text-3xl md:text-4xl font-black">
+              +60.000 ARQUIVOS PARA DOWNLOAD
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
