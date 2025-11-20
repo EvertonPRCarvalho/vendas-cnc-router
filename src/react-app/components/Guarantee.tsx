@@ -1,8 +1,10 @@
 import { Shield } from 'lucide-react';
-
+const handleCTAClick = () => {
+    window.open('https://pay.cakto.com.br/wvyvkay_299442', '_blank');
+  };
 export default function Guarantee() {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
+    <section className="py-1 bg-gradient-to-br from-blue-50 to-indigo-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-blue-200">
           <div className="p-12 text-center">
@@ -49,6 +51,17 @@ export default function Guarantee() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 my-10">
+        <button
+          onClick={handleCTAClick}
+          className="group relative px-8 py-5 bg-green-500 hover:bg-green-600 text-white font-bold text-lg rounded-xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 border-2 border-green-400"
+        >
+          <span className="relative z-10 flex items-center gap-2">
+            🚀 QUERO INVESTIR
+          </span>
+          <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur"></div>
+        </button>
       </div>
     </section>
   );

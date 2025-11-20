@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-orange-50 font-[Inter]">
       <Hero />
-      <PriceSection />
+      {/* <PriceSection /> */}
       <WhatYouGet />
       <Benefits />
       <Testimonials />

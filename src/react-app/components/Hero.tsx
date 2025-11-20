@@ -18,11 +18,11 @@ export default function Hero() {
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight tracking-tight">
             MEGA PACK 60K
-            <span className="block text-yellow-300 mt-2">ARQUIVOS CNC ROUTER</span>
+            <span className="block text-yellow-300 mt-2">CLUBE CNC ROUTER</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/95 mb-8 max-w-3xl mx-auto font-medium leading-relaxed">
-            Crie peças incríveis, economize tempo e <span className="text-yellow-300 font-bold">aumente seus lucros</span> com esse super kit pronto para usar!
+            Projetos exclusivos! Você não encontra igual no <span className="text-yellow-300 font-bold">Google ou em outros packs</span>.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

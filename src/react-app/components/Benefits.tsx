@@ -10,7 +10,7 @@ export default function Benefits() {
     {
       icon: RefreshCw,
       title: 'Atualizações Gratuitas',
-      description: 'Receba novos arquivos gratuitamente pelo WhatsApp'
+      description: 'Receba novos arquivos gratuitamente diretamente no link de download'
     },
     {
       icon: Edit3,

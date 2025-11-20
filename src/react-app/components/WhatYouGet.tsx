@@ -1,4 +1,8 @@
 export default function WhatYouGet() {
+  const handleCTAClick = () => {
+    window.open('https://pay.cakto.com.br/wvyvkay_299442', '_blank');
+  };
+
   const categories = [
     {
       title: 'Medalhas e Anéis',
@@ -26,14 +30,14 @@ export default function WhatYouGet() {
       description: 'Xadrez, damas e outros jogos'
     },
     {
-      title: 'Embalagens',
-      image: 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=500',
-      description: 'Caixas, porta-objetos e displays'
+      title: 'Luminárias',
+      image: 'https://img.elo7.com.br/product/zoom/325A91F/luminaria-m1-arquivo-de-corte-cnc-laser-mdf.jpg?w=500',
+      description: 'Design requintado, variedade de formas e tamanho'
     }
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-orange-50">
+    <section className="py-1 bg-gradient-to-b from-white to-orange-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
@@ -66,13 +70,24 @@ export default function WhatYouGet() {
           ))}
         </div>
         
-        <div className="text-center">
+        <div className="text-center m-10">
           <div className="inline-block bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-2xl shadow-xl">
             <p className="text-3xl md:text-4xl font-black">
               +60.000 ARQUIVOS PARA DOWNLOAD
             </p>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+        <button
+          onClick={handleCTAClick}
+          className="group relative px-8 py-5 bg-green-500 hover:bg-green-600 text-white font-bold text-lg rounded-xl shadow-2xl hover:shadow-green-500/50 transition-all duration-300 transform hover:scale-105 border-2 border-green-400"
+        >
+          <span className="relative z-10 flex items-center gap-2">
+            🚀 QUERO RECEBER AGORA
+          </span>
+          <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur"></div>
+        </button>
       </div>
     </section>
   );
