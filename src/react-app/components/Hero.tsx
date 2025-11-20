@@ -2,7 +2,7 @@ import { Sparkles } from 'lucide-react';
 
 export default function Hero() {
   const handleCTAClick = () => {
-    window.open('https://pay.kiwify.com.br/R9SkpQM', '_blank');
+    window.open('https://pay.cakto.com.br/wvyvkay_299442', '_blank');
   };
 
   return (

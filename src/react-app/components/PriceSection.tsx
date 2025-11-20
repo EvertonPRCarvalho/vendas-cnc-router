@@ -1,6 +1,6 @@
 export default function PriceSection() {
   const handleCTAClick = () => {
-    window.open('https://pay.kiwify.com.br/R9SkpQM', '_blank');
+    window.open('https://pay.cakto.com.br/wvyvkay_299442', '_blank');
   };
 
   return (
@@ -11,7 +11,7 @@ export default function PriceSection() {
           
           <div className="mb-6">
             <div className="text-5xl md:text-7xl font-black text-orange-600 mb-2">
-              6x de R$ 5,61
+              6x de R$ 5,90
             </div>
             <div className="text-3xl md:text-4xl font-bold text-gray-800">
               ou R$ 29,90 à vista

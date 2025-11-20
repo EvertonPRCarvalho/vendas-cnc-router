@@ -1,6 +1,6 @@
 export default function FinalCTA() {
   const handleCTAClick = () => {
-    window.open('https://pay.kiwify.com.br/R9SkpQM', '_blank');
+    window.open('https://pay.cakto.com.br/wvyvkay_299442', '_blank');
   };
 
   return (
@@ -40,7 +40,7 @@ export default function FinalCTA() {
               R$ 29,90
             </div>
             <div className="text-xl text-white/90">
-              ou 6x de R$ 5,61 sem juros
+              ou 6x de R$ 5,90 sem juros
             </div>
           </div>
           
@@ -61,10 +61,6 @@ export default function FinalCTA() {
             <div className="flex items-center gap-2">
               <span className="text-green-300 text-xl">✓</span>
               <span>Garantia de 7 Dias</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="text-green-300 text-xl">✓</span>
-              <span>Suporte via WhatsApp</span>
             </div>
           </div>
         </div>

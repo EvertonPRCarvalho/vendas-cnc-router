@@ -2,27 +2,27 @@ export default function WhatYouGet() {
   const categories = [
     {
       title: 'Medalhas e Anéis',
-      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500',
+      image: 'https://i.etsystatic.com/34769879/r/il/2517d3/4273080240/il_fullxfull.4273080240_ighr.jpg?w=500',
       description: 'Centenas de designs prontos para personalização'
     },
     {
       title: 'Suporte para Celulares',
-      image: 'https://images.unsplash.com/photo-1556656793-08538906a9f8?w=500',
+      image: 'https://i.etsystatic.com/24260166/r/il/cbc6d9/7176545034/il_794xN.7176545034_hm4e.jpg?w=500',
       description: 'Designs modernos e funcionais'
     },
     {
       title: 'Calendários',
-      image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=500',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_740689-MLB95980332492_102025-O.webp?w=500',
       description: 'Calendários perpétuos e anuais'
     },
     {
-      title: 'Brinquedos Educativos',
-      image: 'https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=500',
-      description: 'Quebra-cabeças, jogos e mais'
+      title: 'Chaveiros',
+      image: 'https://http2.mlstatic.com/D_Q_NP_2X_774777-MLB97653770771_112025-T.webp?w=500',
+      description: 'Time de footebol, letras e outros'
     },
     {
       title: 'Tabuleiros',
-      image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=500',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_744405-MLB85561199877_062025-O.webp?w=500',
       description: 'Xadrez, damas e outros jogos'
     },
     {
